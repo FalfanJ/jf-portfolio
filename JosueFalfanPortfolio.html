@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="#">Inicio</a></div>
+            <ul>
+                <li><a href="#skill">Acerca</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="#">
+        <!--<div class="body_inicio">
+            <h1 class="titulo_inicio">Portfolio Josue Falfan</h1>
+            <img src="https://frgp.cvg.utn.edu.ar/pluginfile.php/205230/user/icon/snap/f1?rev=10657819" alt="Foto Perfil" class="foto_perfil">
+            <div class="descripcion_inicio">
+                <h1>Sobre mi</h1>
+                <p>Soy Josue Falfan,estudiante de la carrera Tecnico Universitario en Programacion, perteneciente a la Universidad Tecnologica Nacional Regional Pacheco</p>
+                <p>Por medio de la carreca eh adquirido diversos conocimientos </p>
+                <p>Me encuentro actualmente preparandome para el certificado Cisco CCNA</p>
+            </div>
+        </div>-->
+        <div class="body_inicio">
+            <div class="central">
+                <div class="foto_perfil_div">
+                    <img src="https://frgp.cvg.utn.edu.ar/pluginfile.php/205230/user/icon/snap/f1?rev=10657819" alt="Foto Perfil" class="foto_perfil_img">
+                </div>
+                <div class="info">
+                    <h1 class="h1_text">Josue Falfan</h1>
+                    <p class="p_text">Hola, soy Josue, te presento mi portfolio. Te invito a recorrerlo, en el encontras todo lo referido a mis capacidades y proyectos</p>
+                    <p class="p_text">Desde ya gracias por leerlo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="body_skill">
+            <div class="sobre_mi">
+                <h1 class="h1_text">Sobre mi</h1>
+                <div class="mi_conteiner">
+                    <p class="p_text">Soy Josue Falfan,estudiante de la carrera Tecnico Universitario en Programacion, perteneciente a la Universidad Tecnologica Nacional Regional Pacheco</p>
+                    <p class="p_text">Por medio de la carreca eh adquirido diversos conocimientos </p>
+                    <p class="p_text">Me encuentro actualmente preparandome para el certificado Cisco CCNA</p>
+                </div>
+            </div>
+            <div>
+                <h1 class="h1_text" id="text_conocimiento">Conocimientos</h1>
+                <div class="skill_container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/427px-ISO_C%2B%2B_Logo.svg.png" alt="C++" class="skill_icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/427px-Logo_C_sharp.svg.png" alt="C#" class="skill_icon">
+                    <img src="https://a0.anyrgb.com/pngimg/242/324/sql-server-express-sql-server-management-studio-microsoft-azure-sql-database-microsoft-sql-server-database-server-sql-scalability-postgresql-database-computer-servers.png" alt="SQL Express" class="skill_icon">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png" alt="CSS" class="skill_icon">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/html-icon.png" alt="HTML" class="skill_icon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h1 class="h1_text">Proyectos</h1>
+        <div class="proyecto">
+            <h2 class="h2_proyecto">Gestion</h2>
+            <p class="p_proyecto">Aplicacion de gestion con SQL Express. Este proyecto fue un trabajo en equipo para la materia de Progrmacion III. La aplicacion fue construida con .Net Framework, C#, SQL Server Express y github.</p>
+            <p class="p_proyecto">El progama dota de la capacidad an usuario de poder visualizar, actualizar y modificar una base de datos para la gestion de articulos</p>
+            <a href="https://github.com/FalfanJ/tp-winform-equipo-3a.git" class="link_proyecto">Ver Github</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="contacto">
+        <div class="body_form">
+            <form class="form" action="https://formspree.io/f/mgvnwvee" method="POST">
+                <div class="form_container">
+                    <h2 class="form_titulo">Contactame</h2>
+                    <input type="text" class="form_input" placeholder="Nombre: " name="name">
+                    <input type="email" class="form_input" placeholder="Email: " name="email">
+                    <textarea class="form_input form_input--message" placeholder="Mensaje: " name="message"></textarea>
+
+                    <input type="submit" value="Enviar" class="form_cta">
+                </div>
+            </form>
+        </div>
+        <div class="body_redes">
+            <!-- <div class="redes_container">
+                <h2 class="titulo_redes">Redes</h2>
+                <div class="icono_container">
+                    <a href="https://github.com/FalfanJ" class="icono_redes"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="" class="icono_redes"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </div>
+            </div> -->
+            <h1 class="h1_text">Redes</h1>
+            <div class="icono_container">
+                    <a href="https://github.com/FalfanJ" class="icono_redes"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="" class="icono_redes"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            </div>
+        </div>
+    </section>
+   
+</body>
+</html>
